@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.navbar {
+    background-color: #e0ebeb;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-item {
+    padding: 5px 20px;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #50430ae4;
+    border-bottom: 1px solid ;
+    transition:0.5s;
+
+
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/images/5452421.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+
+
+}
+
+.home-text h1 {
+    text-align: center;
+    margin-top: 200PX;
+    margin-right: 860PX;
+    font-size: 90PX;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+p {
+    margin-left: 65px;
+    color: white;
+}
+
+.batton {
+    margin-right: 850px;
+    text-align: center;
+    color: black;
+    padding: 7px 30px;
+
+
+}
+
+.icon {
+    margin-left: 18px;
+}
+
+.about {
+    padding-top: 35px;
+}
+
+.line {
+    margin-left: 600px;
+    width: 270px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.about{
+    background-color:#cff3f3c2;
+}
+
+
+.about-row {
+    margin-top: 50px;
+    padding: 20px 15px;
+}
+.about-text{
+    margin: auto;
+    padding-top:200px;
+}
+
+.about-p {
+    color: black;
+}
+
+.container h1{
+    font-weight: 800;
+    font-size:70px;
+    text-align: center;
+}
+
+.container P{
+    font-size:20px;
+    font-weight: 300;
+    align-items: center;
+}
+
+.container .btn{
+    align-items: center;
+    margin-left:150px;
+}
+
+.products{
+    padding-top: 35px;  
+}
+    
+
+
+.buttnn{
+    margin-left:75px;
+    align-items: center;
+    background-color:#75a3a3;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttnn:hover{
+    background-color: #c2d6d6;
+}
+
+.gallery{
+    padding-top: 35px;
+    background-color: whitesmoke;
+}
+.carousel-inner{
+width:100%;
+max-height:70vh;
+
+
+
+}
+.carousel-item,
+.carousel-itemactive{
+    height: 100vh;
+    transition: transform 2s ease, opacity .5s ease-out;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact{
+    padding-top: 35px;
+    background-color:white;
+}
+
+.contact .container{
+    padding-top: 15px;
+}
+
+.ctpic img{
+    border-radius: 100%;
+    background-color: #c2d6d658;
+}
